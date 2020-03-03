@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400|Squada+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+    height: 100%;
+    width: 100vw;
+    background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("https://i.imgur.com/o8A4Y8U.jpg") center no-repeat;
+	background-size: cover; 
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  text-align: center;
+  font-size: 80px;
+  font-family: "Squada One", cursive;
+  text-shadow: 0px 3px 8px #21cce1;
+  color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 3px black;
+}
+
+.nav, .nav-tabs, .tab-content{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 70vw;
+}
+
+.nav {
+  margin-top: 5rem;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  font-family: 'Squada One', cursive;
+}
+
+.nav-item {
+    color: #21cce1;
+}
+
+.tab-content {
+  height: auto;
+  border: 2px solid #fff;
+  line-height: 2.5;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: rgba(255,255,255,0.8);
+  text-align: center;
+  padding: 5rem;
+  margin-bottom: 10rem;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#intro > p {
+  text-align: center;
+}
+
+#intro h4 {
+  margin-bottom: 2.5rem;
+}
+
+.tab-images, img {
+  display: flex;
+  margin: 3rem auto;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  width: 200px;
+  height: auto;
+  list-style: none;
+}
+
+.terms {
+  margin: 5rem 2rem 2rem 5rem;
+}
+
+.terms h4 {
+    margin-bottom: 2.5rem;
+}
+
+.terms strong, p {
+    text-align: left;
+}
+.terms strong {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid;
+}
+
+.terms p {
+  font-size: 1rem;
+  letter-spacing: 3px;
+}
+
+/************************** FUN FACTS ******************************/
+
+.list-facts {
+  list-style: none;
+  text-align: center;
+  margin: 0 2rem 2rem 2rem;
+}
+
+#facts {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+#facts > h4 {
+  margin-bottom: 2rem;
+}
+
+#fact, #fact > i {
+  padding: 1.5rem;
+}
+
+#fact > i {
+  font-size: 1.5rem;
+}
+
+#fact > strong {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+#caption {
+  text-align: center;
+}
+
+#dog, #car {
+  height: 200px;
+  width: auto;
+}
+
+#spacex {
+  height: 250px;
+  width: auto;
+}
+
+/********************************* HYPOTHESIS ************************************/
+#hypothesis > h4 {
+  margin: 2rem;
+}
+
+#hypothesis > p {
+  text-align: center;
+  margin: 0 7rem 5rem 7rem;
+}
+
+.outcomes {
+  text-align: center;
+  list-style: none;
+}
+
+#o {
+  margin: 0 5rem 0 5rem;
+}
+
+#o i {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+/********************************* PROCEDURE **********************************************/
+
+#procedure > h4 {
+  margin-bottom: 2rem;
+}
+
+.steps {
+  margin: 0 5rem 0 5rem;
+  list-style: none;
+}
+
+#step {
+  padding-bottom: 1.5rem;
+}
+
+/********************************* MATERIALS ****************************************/
+#materials > h4 {
+  margin-bottom: 2rem;
+}
+.mat-list {
+  text-align: center;
+  margin: 0 5rem 0 5rem;
+  list-style: none;
+}
+
+#materials .fas {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+#materials li {
+   cursor: pointer;
+  transition: transform .3s ease;
+}
+
+#materials li:hover {
+  transform: scale(1.1);
+}
+
+/********************************** CONCLUSION ********************************************/
+
+#conclusion > h4 {
+  margin-bottom: 2rem;
+}
+
+#conclusion > p {
+  text-align: center;
+  line-height: 1.5;
+  margin: 3rem 7rem 3rem 7rem;
+}
+
+#iframe {
+  margin-top: 5rem;
+}
+
