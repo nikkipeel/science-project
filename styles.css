@@ -73,12 +73,12 @@ h1 {
 
 .tab-images, img {
   display: flex;
-  margin: 3rem auto;
+  margin: 2rem auto;
   align-items: center;
   justify-content: center;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  width: 200px;
+  width: 300px;
   height: auto;
   list-style: none;
 }
@@ -139,15 +139,29 @@ h1 {
   text-align: center;
 }
 
+#dog, #car, #spacex {
+  transition: transform 0.1s ease;
+}
+
+#dog:hover, #car:hover, #spacex:hover {
+  cursor: pointer;
+  transform: scale(2.5);
+}
+
 #dog, #car {
-  height: 200px;
-  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  width: 250px;
+  height: auto;
 }
 
 #spacex {
-  height: 250px;
-  width: auto;
+  width: 350px;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
 }
+
 
 /********************************* HYPOTHESIS ************************************/
 #hypothesis > h4 {
@@ -228,3 +242,174 @@ h1 {
   margin-top: 5rem;
 }
 
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 48px;
+    flex-wrap: wrap;
+  }
+
+  .nav, .nav-tabs, .tab-content{
+    width: 90vw;
+  }
+
+
+  .tab-content {
+    line-height: 1.7;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 10rem;
+  }
+
+  .tab-images, img {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+  }
+
+  .terms {
+    margin: 2rem 1rem 2rem 1rem;
+  }
+  .list-facts {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+  #fact, #fact > i {
+    padding: 1rem;
+  }
+
+
+  #dog, #car {
+    height: 100px;
+    width: auto;
+  }
+
+  #spacex {
+    height: 150px;
+    width: auto;
+  }
+
+  #hypothesis > p {
+    margin: 0 2rem 5rem 2rem;
+  }
+
+  #o {
+    margin: 0 2rem 2rem 2rem;
+  }
+
+  #o i {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+.mat-list {
+  margin: 0 2rem 4rem 2rem;
+}
+
+#materials .fas {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+#materials li {
+  margin-bottom: 2rem;
+  transition: none;
+}
+
+#materials li:hover {
+  cursor: none;
+  transform: none;
+}
+
+#conclusion {
+  width: 90%; 
+}
+
+#conclusion p {
+  margin: 0 2rem 2rem 2rem;
+
+}
+
+iframe {
+  width: 240px;
+  height: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+}
+
+@media screen and (max-width: 960px) {
+  .tab-images {
+    display:flex;
+    flex-direction: column;
+  }
+  
+  #intro {
+    width: 90%;
+  }
+
+  #hypothesis > p {
+    margin: 0 2rem 5rem 2rem;
+  }
+
+  #o {
+    margin: 0 2rem 2rem 2rem;
+  }
+
+  #o i {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .steps {
+    margin: 0 2rem 0 2rem;
+  }
+
+  .mat-list {
+    margin: 0 2rem 4rem 2rem;
+  }
+
+  #materials .fas {
+    font-size: 1.25rem;
+    padding: 1rem;
+  }
+
+  #materials li {
+    margin-bottom: 2rem;
+    transition: none;
+  }
+
+  #materials li:hover {
+    cursor: none;
+    transform: none;
+  }
+
+  #conclusion p {
+    margin: 0 3rem 2rem 3rem;
+  }
+
+  iframe {
+    width: 90%;
+    height: 200px;
+    margin: 5rem 1rem 5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .tab-images {
+    display: flex;
+    flex-direction: column;
+  }
+  #conclusion p {
+    margin: 0 3rem 2rem 3rem;
+  }
+
+  iframe {
+    width: 90%;
+    height: 300px;
+    margin: 5rem 2rem 5rem 2rem;
+  }
+}
