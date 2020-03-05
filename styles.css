@@ -296,6 +296,10 @@ h1 {
   #dog, #car, #spacex {
     transition: none;
   }
+ 
+  #dog:hover, #car:hover, #spacex:hover {
+	transform: none;
+  }
 	
   #hypothesis > p {
     margin: 0 2rem 5rem 2rem;
