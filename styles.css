@@ -292,6 +292,15 @@ h1 {
     width: auto;
   }
 
+  #dog, #car, #spacex {
+    transition: all 0.1s ease;
+  }
+
+#dog:hover, #car:hover, #spacex:hover {
+  cursor: pointer;
+  height: 100vh;
+  width: auto;
+}
   #hypothesis > p {
     margin: 0 2rem 5rem 2rem;
   }
